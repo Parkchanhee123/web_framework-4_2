@@ -45,14 +45,6 @@ const Admin = (props) => {
 
   return (
     <>
-      <Sidebar
-        {...props}
-        routes={routes}
-        logo={{
-          innerLink: "/admin/index",
-          imgAlt: "...",
-        }}
-      />
       <div className="main-content" ref={mainContent}>
         <AdminNavbar
           {...props}
